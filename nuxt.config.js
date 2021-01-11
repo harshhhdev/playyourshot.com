@@ -1,7 +1,6 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: "static",
-  mode: "spa",
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
@@ -17,9 +16,6 @@ export default {
       }
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "./favicon.ico" }]
-  },
-  router: {
-    base: "/playyourshot.com/"
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
