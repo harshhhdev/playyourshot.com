@@ -1,0 +1,17 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/about.js": "pages/about.js",
+    "pages/beta.js": "pages/beta.js",
+    "pages/index.js": "pages/index.js",
+    "pages/key.js": "pages/key.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/about.js": "pages/about.js.map",
+    "pages/beta.js": "pages/beta.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/key.js": "pages/key.js.map",
+    "server.js": "server.js.map"
+  }
+}
