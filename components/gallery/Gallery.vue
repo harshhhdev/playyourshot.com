@@ -66,6 +66,7 @@
 
 <style>
 .about-main {
+  text-align: center;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -99,5 +100,18 @@
 }
 .card:hover {
   transform: translateY(-5px);
+}
+@media (max-width: 700px) {
+  .about-head > a > img {
+    width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .about-head > a > img {
+    width: 300px;
+  }
+  .about-head > h4 {
+    line-height: 30px;
+  }
 }
 </style>

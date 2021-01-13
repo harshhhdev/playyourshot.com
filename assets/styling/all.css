@@ -7,94 +7,93 @@
 @import url("./elements/scrollbar.css");
 
 @font-face {
-    font-family: barcade;
-    src: url(fonts/BarcadeBrawlRegular-plYD.woff);
+  font-family: barcade;
+  src: url(fonts/BarcadeBrawlRegular-plYD.woff);
 }
- 
-/*#region Navbar*/
-   ul {
-    list-style-type: none;
-    font-family: barcade;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
-  
-  li {
-    float: left;
-    font-family: barcade;
-  }
-  
-  li a {
-    display: block;
-    font-family: barcade;
-    font-size: 25px;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-  }
-  
- 
-  li a:hover {
-    color: #73FC00;
-  }
-  
 
-  h1 {
-    font-family: barcade;
-    color: white;
-    text-align: center;
-  }
-  
-  p {
-    color: white;
-    font-family: barcade;
-    font-size: 20px;
-    line-height: 200%;
-  }
+ul {
+  list-style-type: none;
+  font-family: barcade;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
 
-  h2 {
-    color: white;
-    font-family: barcade;
-    font-size: 35px;
-    text-align: center;
-  }
-  h4{
-    color: gray;
-    font-family: barcade;
-    font-size: 25px;
-    text-align: center;
-  }
+li {
+  float: left;
+  font-family: barcade;
+}
 
-  h5{
-    color: white;
-    font-family: barcade;
-    font-size: 18px;
-    line-height: 200%;
-    text-align: center;
-  }
-  
-  label {
-    color: white;
-    font-family: barcade;
-    font-size: 18px;
-    line-height: 200%;
-    text-align: center;
-  }
+li a {
+  display: block;
+  font-family: barcade;
+  font-size: 25px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
 
-  button {
-    font-family: barcade;
-  }
+li a:hover {
+  color: #73fc00;
+}
 
-  input[type="email"], input[type="text"], input[type="url"] {
-    font-family: barcade;
-    color: white;
-  }
+h1 {
+  font-family: barcade;
+  color: white;
+  text-align: center;
+}
 
-  ::placeholder {
-    text-align: center;
-    font-family: barcade;
-    color: whitesmoke;
-    opacity: 0.5;
-  }
+p {
+  color: white;
+  font-family: barcade;
+  font-size: 20px;
+  line-height: 200%;
+}
+
+h2 {
+  color: white;
+  font-family: barcade;
+  font-size: 35px;
+  text-align: center;
+}
+h4 {
+  color: gray;
+  font-family: barcade;
+  font-size: 25px;
+  text-align: center;
+}
+
+h5 {
+  color: white;
+  font-family: barcade;
+  font-size: 18px;
+  line-height: 200%;
+  text-align: center;
+}
+
+label {
+  color: white;
+  font-family: barcade;
+  font-size: 18px;
+  line-height: 200%;
+  text-align: center;
+}
+
+button {
+  font-family: barcade;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="url"] {
+  font-family: barcade;
+  color: white;
+}
+
+::placeholder {
+  text-align: center;
+  font-family: barcade;
+  color: whitesmoke;
+  opacity: 0.5;
+}

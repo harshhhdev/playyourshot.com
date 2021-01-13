@@ -22,7 +22,7 @@
         <font-awesome-icon :icon="['fab', 'steam']" />
       </a>
     </div>
-    <h1>© 2021 Minidevs</h1>
+    <h1 class="copyright">© 2021 Minidevs</h1>
   </footer>
 </template>
 
@@ -49,5 +49,18 @@ footer {
 footer > h1 {
   color: #7f7f7f;
   font-size: 14px;
+}
+@media (max-width: 500px) {
+  .copyright {
+    display: none;
+  }
+  footer {
+    justify-content: center;
+  }
+  .social > a > svg {
+    font-size: 50px;
+    padding: 0 10px;
+    color: #7f7f7f;
+  }
 }
 </style>

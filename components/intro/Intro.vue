@@ -16,6 +16,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
   justify-content: center;
   height: 100vh;
   width: 100%;
@@ -70,6 +71,14 @@
 @media (max-width: 700px) {
   .intro-main > a > img {
     width: 400px;
+  }
+}
+@media (max-width: 400px) {
+  .intro-main > a > img {
+    width: 300px;
+  }
+  .intro-main > h4 {
+    line-height: 30px;
   }
 }
 </style>

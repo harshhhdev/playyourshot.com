@@ -18,6 +18,7 @@
   justify-content: center;
   flex-direction: column;
   color: white;
+  line-height: 300%;
 }
 .beta h1 {
   margin-top: 100px;
@@ -32,5 +33,11 @@
 .beta p a {
   text-decoration: none;
   color: #8fdd4f;
+}
+@media (max-width: 500px) {
+  .beta h2 {
+    margin-top: 110%;
+    margin-bottom: 30px;
+  }
 }
 </style>

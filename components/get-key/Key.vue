@@ -44,6 +44,7 @@
 .key {
   display: flex;
   align-items: center;
+  line-height: 300%;
   flex-direction: column;
   color: white;
   text-align: center;
@@ -84,9 +85,21 @@
   border: none;
   transition: 0.3s linear;
   color: white;
+  margin-bottom: 140%;
 }
 .send-request:hover {
   cursor: pointer;
   background: #8fdd4f;
+}
+@media (max-width: 500px) {
+  .key p {
+    width: 90%;
+    line-height: 35px;
+  }
+}
+@media (max-width: 400px) {
+  .form-request input {
+    width: 80%;
+  }
 }
 </style>

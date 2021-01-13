@@ -91,7 +91,7 @@
   }
   .nav > .nav-links {
     position: absolute;
-    z-index: -10;
+    z-index: 10;
     display: flex;
     width: 100%;
     background-color: #383838;
